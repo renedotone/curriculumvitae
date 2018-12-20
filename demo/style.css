@@ -1,0 +1,150 @@
+body{
+    background-color: #E6ECF9;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #1A93B9;
+    color: white;
+    font-size: 20px;
+    font-family: "roboto", sans-serif;
+    border-radius: 20px;
+}
+.header:hover{
+    background-color: #BF5EAF;
+    transition: all 0.5s ease-in;
+}
+
+h2{
+    background: #2F505B;
+    /*background: #A3BDC5;*/
+    color: white;
+    text-align: center;
+    font-family: "roboto", sans-serif;
+    border-radius: 20px;
+    padding: 9px;
+}
+
+.wrapper{   
+    /*background: #eee;*/
+    background: #98CCDD;
+    padding: 11px;
+    border-radius: 20px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /*
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    */
+    grid-gap: 1em;
+    grid-auto-rows: 40px;
+    /* 
+    Met  grid-auto-rows: minmax(100px,auto);  kun je de columns automatisch laten aanpassen aan de tekst. Met je wel  grid-auto-rows  uitschakelen 
+    */
+}
+
+.wrapper >div:nth-child(odd){
+    /*background: #ddd;*/
+    background: #459BB7;
+    border-radius: 20px;
+}
+
+.wrapper{
+    font-family: "roboto", sans-serif;
+    
+}
+
+.jaar{
+    vertical-align: bottom;
+    text-align: center;
+    padding-top: 11px;
+}
+
+.functie{
+    text-align: left;
+    padding-top: 3px;
+}
+
+    /* 
+    Hieronder komt de wrap2 
+    */
+
+.wrap2{   
+    /*background: #eee;*/
+    background: #A7C1F3;
+    padding: 11px;
+    border-radius: 20px;
+}
+
+.wrap2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    /*
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    */
+    grid-gap: 1em;
+    grid-auto-rows: 40px;
+
+}
+
+.wrap2 >div:nth-child(odd){
+    /*background: #ddd;*/
+    background: #4E7ACF;
+    border-radius: 20px;
+}
+
+.wrap2{
+    font-family: "roboto", sans-serif;
+}
+    
+.tekst{
+    vertical-align: bottom;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 11px;
+}
+
+.gegevens{
+    text-align: left;
+    padding-top: 11px;
+}
+
+    /*  
+    Hieronder ga ik button opmaken
+    */
+
+.button
+{   margin-top: ;
+    margin-left: ; 
+}
+
+.btn
+{
+    border: 1 px solid white;
+    padding: 10px 30px;
+    color: black;
+    text-decoration: none;
+    margin-right: ;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.btn-two
+{
+    font-family: "Roboto", sans-serif;
+    background-color: #F1E407;
+    border-radius: 20px;
+}
+
+.btn-two:hover
+{
+    background-color: #F71D0D;
+    transition: all 0.5s ease-in;
+}
